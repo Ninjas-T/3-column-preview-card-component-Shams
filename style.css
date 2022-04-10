@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display');
+
 * {
     margin: 0;
     padding: 0;
@@ -114,7 +117,7 @@ a {
         font-size: 12px;
     }
 
-    p{
+    p {
         margin-bottom: 90px;
     }
 
@@ -126,9 +129,9 @@ a {
         width: 50%;
     }
 
-    p{
+    p {
         margin-bottom: 50px;
-        
+
     }
 }
 
@@ -136,8 +139,8 @@ a {
 @media (max-width: 768px) {
     main {
         width: 50%;
-        }
-    
+    }
+
     section {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -146,11 +149,11 @@ a {
         height: 500px;
     }
 
-    p{
+    p {
         max-width: 70%;
         margin-bottom: 90px;
     }
-    
+
 }
 
 /*MEDIA QUERIES SECTION ENDS*/
