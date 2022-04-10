@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display');
+
 * {
     margin: 0;
     padding: 0;
@@ -51,9 +54,10 @@ h2 {
     color: hsl(0, 0%, 95%);
     padding: 25px 0;
     font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', sans-serif;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    font-family: 'Big Shoulders Display', sans-serif;
 }
 
 p {
@@ -70,7 +74,7 @@ a {
     text-transform: capitalize;
     padding: 12px 30px;
     border: 1px solid hsl(0, 0%, 95%);
-    border-radius: 50px;
+    border-radius: 40px;
     background: hsl(0, 0%, 95%);
     transition: background 1s ease-in-out;
     cursor: pointer;
@@ -104,3 +108,52 @@ a {
 }
 
 /* HEADING, PARAGRAPH, AND BUTTON SECTION STYLE ENDS */
+
+/*MEDIA QUERIES SECTION STARTS*/
+/* laptop */
+@media (min-width: 992px) and (max-width: 1199px) {
+    main {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    p {
+        margin-bottom: 90px;
+    }
+
+}
+
+/* tablet */
+@media (min-width: 767px) and (max-width: 991px) {
+    main {
+        width: 50%;
+    }
+
+    p {
+        margin-bottom: 50px;
+
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    main {
+        width: 50%;
+    }
+
+    section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    article {
+        height: 500px;
+    }
+
+    p {
+        max-width: 70%;
+        margin-bottom: 90px;
+    }
+
+}
+
+/*MEDIA QUERIES SECTION ENDS*/
