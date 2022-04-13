@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src='https://i.ibb.co/fMv1qW5/screencapture-127-0-0-1-5500-index-html-2022-04-07-16-36-59.png'>
+<img src='https://i.ibb.co/7kJWcYh/screencapture-ninjas-t-github-io-3-column-preview-card-component-Shams-2022-04-14-01-21-47.png'>
 
 ### Links
 
